@@ -1,0 +1,44 @@
+.container {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.taskList{
+    text-align: left;
+    font-family: 'Roboto-Light';
+    font-weight: 100
+}
+mat-card:hover {
+    background-color: #f7f7f7;
+    transition: background-color 0.1s ;
+}
+.icons{
+    float: right;
+    clear: both;
+    vertical-align: center;
+}
+.icons mat-icon:hover{
+color: red;
+cursor: pointer;
+}
+::ng-deep mat-card.mat-card h1 {
+    margin-bottom: 40px !important ;
+
+}
+.mat-form-field {
+    width: 100%;
+}
+.intro {
+    margin-bottom: 40px;
+    margin-top: 40px
+}
+.spinner {
+
+text-align:center
+}
+::ng-deep .mat-progress-spinner {
+    margin: auto;
+}
+::ng-deep .mat-icon-button .mat-icon.material-icons {
+    vertical-align: inherit;
+}
